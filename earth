@@ -5,3 +5,7 @@ git add .
 git commit-m name
 git push origin branch name
 
+git branch
+git push
+git fetch
+git pull
