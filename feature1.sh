@@ -1,14 +1,8 @@
 #!/bin/bash
-
-
-valid=true
-count=1
-while [ $valid ]
-do
-echo $count
-if [ $count -eq 5 ];
+n=10
+if [ $n -lt 10 ];
 then
-break 
+echo "It is a one digit number"
+else
+echo "It is a two digit number"
 fi
-((count++))
-done
