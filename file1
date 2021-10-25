@@ -1,5 +1,13 @@
-i am learning devops
-hi
-hi
-my friend got a job in hcl 
-i am removed gaps
+#!/bin/bash
+function greeting() {
+
+str="Hello, $name"
+echo $str
+
+}
+
+echo "Enter your name"
+read name
+
+val=$(greeting)
+echo "Return value of the function is $val"
