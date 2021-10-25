@@ -1,7 +1,7 @@
-
 #!/bin/bash
 
-echo "enter your name"
-read name 
-echo "welcome : $read name"
+# Add two numeric value
+((sum=25+35))
 
+#Print the result
+echo $sum
