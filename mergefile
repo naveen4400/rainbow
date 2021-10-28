@@ -1,5 +1,5 @@
 #!/bin/bash
-num=545
+num=0123
 
 # Storing the remainder
 s=0
